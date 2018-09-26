@@ -103,6 +103,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  
 
 }
 .enfant{
@@ -124,7 +125,7 @@ ul{
   width: 50%;
   height: 90vh;
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 .textright{
@@ -133,10 +134,12 @@ justify-content: center;
   display: flex;
   flex-direction: column;
 
+
 }
 .twit{
 display: flex;
 justify-content: flex-start;
+
 
 }
 
@@ -144,6 +147,7 @@ justify-content: flex-start;
   height: 20%;
   width: 8%;
   padding-top: 1em;
+  margin-right: 7%;
 
 }
 .twit-p{
@@ -205,10 +209,9 @@ i{
 
 
     .fa-twitter{
-     color: #00aced;
-     background-color: red;
      height: 50px;
      width: 50px;
+     color: #00aced;
 
    }
 
@@ -276,7 +279,7 @@ i{
 .password{
   text-align: right;
 }
-.password p{
+.password a{
   font-size: 14px;
   color: #e6ecf0;
   display: flex;
@@ -322,16 +325,40 @@ line-height: 30px;
    /*
    ~~~~~~~~ start footer ~~~~~~~~~
    */
-footer{
-  background-color: #e6ecf0;
-}
+
+
    /*
    ~~~~~~~~ end footer ~~~~~~~~~
    */
 
 
+footer {
+
+  background-color: #F3F3F3;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 
+.foot{
+
+
+
+
+
+}
+
+a{
+  font-size: 13px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 5px;
+  color: #CCCCCC;
+
+
+}
 
 
 
