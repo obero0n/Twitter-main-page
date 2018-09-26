@@ -99,22 +99,26 @@ textarea {
    /*
    ~~~~~~~~ Start Utility classes ~~~~~~~~~
    */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .master{
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
   
-
 }
 .enfant{
 width: 50%;
 height: 90vh;
-
 display: flex;
 flex-direction: column;
 align-items: center;
-
 }
+
 ul{
   display: flex;
   justify-content: space-between;
@@ -122,10 +126,13 @@ ul{
 
 .follow{
   background-color: #00aced;
+  background-image: url(../img/twitter.jpg);
+  background-size: cover;
   width: 50%;
   height: 90vh;
   display: flex;
   justify-content: center;
+
 }
 
 .textright{
@@ -179,6 +186,15 @@ p{
 i{
   color: white;
 }
+
+a:link
+{
+text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
    /*
    ~~~~~~~~ End Common Rules ~~~~~~~~~
    */
